@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Введите натуральное число");
+int x = Convert.ToInt32 (Console.ReadLine());
+Console.WriteLine("Введите натуральное число");
+int y = Convert.ToInt32 (Console.ReadLine());
+Console.WriteLine("Введите натуральное число");
+int z = Convert.ToInt32 (Console.ReadLine());
+if (x > y);
+    else if (x < z) Console.WriteLine (z + " Максимальное число");
+    else if (y > z) Console.WriteLine (x + " Максимальное число");
+else Console.WriteLine (y + " Максимальное число");
