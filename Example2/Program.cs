@@ -4,7 +4,11 @@ Console.WriteLine("Введите натуральное число");
 int y = Convert.ToInt32 (Console.ReadLine());
 Console.WriteLine("Введите натуральное число");
 int z = Convert.ToInt32 (Console.ReadLine());
-if (x > y);
-    else if (x < z) Console.WriteLine (z + " Максимальное число");
-    else if (y > z) Console.WriteLine (x + " Максимальное число");
-else Console.WriteLine (y + " Максимальное число");
+int max = x;
+
+if (x > max) max = x;
+if (y > max) max = y;
+if (z > max) max = z;
+
+Console.Write ("Максимальное число = ");
+Console.WriteLine (max);
